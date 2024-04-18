@@ -17,7 +17,6 @@ if __name__ == "__main__":
     print("Usage: py gen_test_from_template.py <filename>")
   else:
     print("Please answer these multiple choice questions.")
-    print("Output your answer letter first. Notes can be appended, but should not contain line breaks.")
-    print("Do not output anything besides answers to the following questions:")
+    print("Output your answer letter first. It could help if notes are appended, but they should not contain line breaks.")
     print("")
     process_file(sys.argv[1])
