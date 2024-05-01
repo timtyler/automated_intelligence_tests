@@ -1,7 +1,7 @@
 Output some multiple choice questions to act as a test of capability.
 
- * Generate 10 test questions.
- * The questions should be numbered from 1 to 10.
+ * Generate 100 test questions.
+ * The questions should be numbered from 1 to 100.
  * Two questions should not have the same number.
  * The number of the question should precede the body of the question on the line.
  * Output one blank line before every question. Do not output any other blank lines.
@@ -9,21 +9,23 @@ Output some multiple choice questions to act as a test of capability.
 
 This is a list of properties of the test questions:
 
- * The theme of the questions is: general intelligence.
+ * The theme of the questions is: trick questions.
  * Questions should be reasonably short. No rambling on.
  * Questions should be very challenging: we do not want questions that are easy to answer.
+ * Questions should be independent of each other.
  * If factual knowledge is needed to answer the question, supply that knowledge in the question.
  * Questions should end with a question mark.
  * Questions should not be split over more than one line.
- * As far as reasonably possible, questions should have an umambiguous correct answer.
+ * As far as possible, questions should have an umambiguous correct answer.
  * No questions about spelling.
  * No questions involving numbers bigger than 100.
- * Between 1 and 4 plausible-sounding but incorrect alternative answers to the questions should be generated.
- * The correct answer and the alternative answers should be assigned alphabetic symbols.
- * The correct answer and the alternative answers should be randomly sorted.
+ * Generate between 1 and 4 different incorrect but plausible-sounding answers to the question.
+ * Answers should not duplicate other answers.
+ * All the answers should be randomly sorted.
+ * All the answers should be assigned upper case alphabetic symbols.
  * The first alphabetic symbol should be "A". Do not skip over any letters.
  * The alphabetic symbols should be assigned to the answers in alphabetic order.
- * Each question has the alphabetic symbol of the correct answer on its own line.
+ * Each question additionally has the alphabetic symbol of the correct answer on its own line.
  * Correct question answers should be prefixed by "The correct answer is: ".
- * To help with review of the question, a rationale for the correct answer should be given on its own line.
- * Question rationales should be underneath the question, prefixed by "Rationale: ".
+ * A rationale for the correct answer should be given on its own line.
+ * Question rationales should be underneath all other parts of the question, prefixed by "Rationale: ".
